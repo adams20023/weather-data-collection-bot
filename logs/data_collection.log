@@ -1,0 +1,524 @@
+Starting data collection...
+Traceback (most recent call last):
+  File "/Users/admin/data_collection.py", line 43, in <module>
+    time.sleep(60)  # Wait for one minute
+    ^^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_api_key_here
+Traceback (most recent call last):
+  File "/Users/admin/data_collection.py", line 42, in <module>
+    main()
+  File "/Users/admin/data_collection.py", line 38, in main
+    time.sleep(1)  # To avoid hitting the API rate limit
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+Traceback (most recent call last):
+  File "/Users/admin/data_collection.py", line 47, in <module>
+    main()
+  File "/Users/admin/data_collection.py", line 43, in main
+    time.sleep(1)  # To avoid hitting the API rate limit
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+INFO:root:Fetching weather data for London
+ERROR:root:Error fetching data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key
+Traceback (most recent call last):
+  File "/Users/admin/data_collection.py", line 44, in <module>
+    main()
+  File "/Users/admin/data_collection.py", line 40, in main
+    time.sleep(1)  # To avoid hitting the API rate limit
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Successfully fetched data for London
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+INFO:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+INFO:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+DEBUG:root:API_KEY: 18128324a68ff7ac07e84436070303d3
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+DEBUG:root:API_KEY: 18128324a68ff7ac07e84436070303d3
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 514
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
+INFO:root:Data collection completed
+DEBUG:root:API_KEY: 18128324a68ff7ac07e84436070303d3
+INFO:root:Starting data collection
+INFO:root:Fetching weather data for London
+DEBUG:root:Request URL: http://api.openweathermap.org/data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?q=London&appid=18128324a68ff7ac07e84436070303d3 HTTP/11" 200 512
+DEBUG:root:Response Status Code: 200
+INFO:root:Successfully fetched data for London
