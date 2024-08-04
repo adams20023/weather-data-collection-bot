@@ -25,17 +25,21 @@ def write_data_to_csv(data, filename='/Users/admin/output_data.csv'):
     if data:
         logging.info(f"Writing data to {filename}")
         with open(filename, 'w', newline='') as csvfile:
-            fieldnames = ['temp', 'feels_like', 'temp_min', 'temp_max', 'pressure', 'humidity']
+            fieldnames = ['temp', 'feels_like', 'temp_min', 'temp_max', 'pressure', 'humidity', 'weather_description', 'wind_speed']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             main = data['main']
+            weather = data['weather'][0]
+            wind = data['wind']
             writer.writerow({
                 'temp': main['temp'],
                 'feels_like': main['feels_like'],
                 'temp_min': main['temp_min'],
                 'temp_max': main['temp_max'],
                 'pressure': main['pressure'],
-                'humidity': main['humidity']
+                'humidity': main['humidity'],
+                'weather_description': weather['description'],
+                'wind_speed': wind['speed']
             })
         logging.info(f"Data successfully written to {filename}")
     else:
@@ -48,4 +52,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
