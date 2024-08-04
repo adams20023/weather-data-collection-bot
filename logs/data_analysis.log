@@ -1,7 +1,6 @@
-API_KEY: 18128324a68ff7ac07e84436070303d3
 Traceback (most recent call last):
-  File "/Users/admin/weather_data_collection/data_collection.py", line 14, in <module>
-    logging.basicConfig(filename='/Users/admin/logs/data_collection.log', level=logging.DEBUG)
+  File "/Users/admin/weather_data_collection/data_analysis.py", line 4, in <module>
+    logging.basicConfig(filename='/Users/admin/logs/data_analysis.log', level=logging.INFO)
   File "/usr/local/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py", line 2118, in basicConfig
     h = FileHandler(filename, mode,
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -11,4 +10,4 @@ Traceback (most recent call last):
   File "/usr/local/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py", line 1263, in _open
     return open_func(self.baseFilename, self.mode,
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/Users/admin/logs/data_collection.log'
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/admin/logs/data_analysis.log'

@@ -1,57 +1,51 @@
 import requests
-import time
+import os
 import csv
 import logging
-import os
 
-# Fetch the API key from the environment variable
-API_KEY = os.getenv('API_KEY')
-
-if not API_KEY:
-    raise ValueError("API_KEY environment variable is not set.")
-print(f"API_KEY: {API_KEY}")
-
+# Configure logging
 logging.basicConfig(filename='/Users/admin/logs/data_collection.log', level=logging.DEBUG)
-logging.debug(f"API_KEY: {API_KEY}")
 
-def fetch_weather_data(city):
+API_KEY = os.getenv('API_KEY')
+CITY = "London"
+URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}"
+
+def fetch_weather_data():
+    logging.info(f"Fetching weather data for {CITY}")
     try:
-        url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
-        logging.debug(f"Request URL: {url}")
-        response = requests.get(url, timeout=10)
+        response = requests.get(URL)
         logging.debug(f"Response Status Code: {response.status_code}")
-        if response.status_code == 401:
-            logging.error("Unauthorized request. Check the API key.")
-            return None
         response.raise_for_status()
         return response.json()
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching data for {city}: {e}")
+    except requests.exceptions.HTTPError as err:
+        logging.error(f"Error fetching data for {CITY}: {err}")
         return None
 
+def write_data_to_csv(data, filename='/Users/admin/output_data.csv'):
+    if data:
+        logging.info(f"Writing data to {filename}")
+        with open(filename, 'w', newline='') as csvfile:
+            fieldnames = ['temp', 'feels_like', 'temp_min', 'temp_max', 'pressure', 'humidity']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            main = data['main']
+            writer.writerow({
+                'temp': main['temp'],
+                'feels_like': main['feels_like'],
+                'temp_min': main['temp_min'],
+                'temp_max': main['temp_max'],
+                'pressure': main['pressure'],
+                'humidity': main['humidity']
+            })
+        logging.info(f"Data successfully written to {filename}")
+    else:
+        logging.warning(f"No data to write to {filename}")
+
 def main():
-    cities = ['London'] * 5  # Reduced for testing
-    with open('/Users/admin/output_data.csv', 'w', newline='') as csvfile:
-        fieldnames = ['city', 'temperature', 'weather', 'humidity', 'wind_speed', 'pressure']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for city in cities:
-            logging.info(f"Fetching weather data for {city}")
-            data = fetch_weather_data(city)
-            if data:
-                logging.info(f"Successfully fetched data for {city}")
-                writer.writerow({
-                    'city': city,
-                    'temperature': data['main']['temp'],
-                    'weather': data['weather'][0]['description'],
-                    'humidity': data['main']['humidity'],
-                    'wind_speed': data['wind']['speed'],
-                    'pressure': data['main']['pressure']
-                })
-            time.sleep(10)  # Increased wait for testing
+    data = fetch_weather_data()
+    write_data_to_csv(data)
+    print("Data collection complete")
 
 if __name__ == "__main__":
-    logging.info("Starting data collection")
     main()
-    logging.info("Data collection completed")
 

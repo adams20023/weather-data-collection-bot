@@ -1,25 +1,22 @@
 import pandas as pd
 import logging
 
-logging.basicConfig(filename='/Users/admin/logs/data_analysis.log', level=logging.INFO)
+# Configure logging
+logging.basicConfig(filename='/Users/admin/logs/data_analysis.log', level=logging.DEBUG)
 
-try:
-    df = pd.read_csv('/Users/admin/cleaned_data.csv')
+def analyze_data(input_file='/Users/admin/cleaned_data.csv', output_file='/Users/admin/analysis_results.csv'):
+    try:
+        logging.info(f"Reading data from {input_file}")
+        df = pd.read_csv(input_file)
+        logging.info("Analyzing data")
+        # Implement your data analysis logic here
+        result = df.describe()  # Example analysis operation
+        logging.info(f"Writing analysis results to {output_file}")
+        result.to_csv(output_file)
+        logging.info("Data analysis complete")
+    except Exception as e:
+        logging.error(f"Error analyzing data: {e}")
 
-    analysis_results = {
-        'average_temperature': df['temperature'].mean(),
-        'average_humidity': df['humidity'].mean(),
-        'average_wind_speed': df['wind_speed'].mean(),
-        'average_pressure': df['pressure'].mean(),
-        'weather_distribution': df['weather'].value_counts().to_dict()
-    }
-
-    with open('/Users/admin/analysis_results.txt', 'w') as f:
-        for key, value in analysis_results.items():
-            f.write(f"{key}: {value}\n")
-
-    logging.info("Data analysis completed successfully")
-except Exception as e:
-    logging.error(f"Error during data analysis: {e}")
-    raise
+if __name__ == "__main__":
+    analyze_data()
 

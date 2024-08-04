@@ -1,20 +1,23 @@
 #!/bin/bash
 
-# Activate the virtual environment
-source /Users/admin/myenv/bin/activate
+# Create logs directory if it does not exist
+mkdir -p /Users/admin/logs
 
-# Run the Python scripts
+# Run data collection
 echo "Starting data collection..."
-python /Users/admin/data_collection.py >> /Users/admin/logs/data_collection.log 2>&1
+python /Users/admin/weather_data_collection/data_collection.py
 
+# Run data cleaning
 echo "Starting data cleaning..."
-python /Users/admin/data_cleaning.py >> /Users/admin/logs/data_cleaning.log 2>&1
+python /Users/admin/weather_data_collection/data_cleaning.py
 
+# Run data analysis
 echo "Starting data analysis..."
-python /Users/admin/data_analysis.py >> /Users/admin/logs/data_analysis.log 2>&1
+python /Users/admin/weather_data_collection/data_analysis.py
 
+# Run interactive dashboard
 echo "Starting interactive dashboard..."
-python /Users/admin/interactive_dashboard.py >> /Users/admin/logs/interactive_dashboard.log 2>&1
+python /Users/admin/weather_data_collection/interactive_dashboard.py
 
 echo "All tasks completed."
 
